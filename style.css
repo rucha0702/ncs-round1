@@ -100,6 +100,7 @@ ul li {
 .main-section .sub-section {
   background: white;
   margin: 10px 10px;
+  border-radius: 5px;
 }
 footer {
   display: flex;
