@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+}
+.btn1 {
+  background: blue;
+  color: white;
+  transition: all 1s ease;
+}
+
+.btn2 {
+  transition: all 1s ease;
+}
+.btn1:hover {
+  cursor: pointer;
+  background: rgb(3, 3, 124);
+}
+.btn2:hover {
+  background: rgb(211, 209, 209);
+}
+.navbar {
+  width: 100%;
+}
+.navbar ul {
+  display: flex;
+  padding: 20px;
+  padding-bottom: 0;
+  border-bottom: 1px grey solid;
+  width: 100%;
+  justify-content: space-between;
+}
+ul li {
+  list-style: none;
+}
+.navbar div {
+  display: flex;
+}
+.navbar input {
+  padding: 10px;
+  width: 500px;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+.container {
+  display: flex;
+
+  width: 100%;
+  height: 100%;
+  background: rgb(216, 211, 211);
+}
+.sidebar-left {
+  flex: 0.2;
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  padding: 10px;
+  margin: 10px;
+  background: white;
+}
+.sidebar-left .box span {
+  color: blue;
+}
+.sidebar-left .list div {
+  display: flex;
+  margin: 10px;
+}
+.sidebar-left .list {
+  padding: 10px;
+  margin: 10px;
+}
+.main-section {
+  flex: 0.5;
+}
+.main-section ul {
+  display: flex;
+}
+.main-section .sub-section {
+  background: white;
+  margin: 10px 10px;
+}
+footer {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+footer .right {
+  display: flex;
+}
+.right-sidebar {
+  flex: 0.3;
+}
+.listings div {
+  padding: 10px;
+  border-bottom: 1px grey solid;
+}
+.small {
+  font-size: 15px;
+  color: grey;
+}
+.small-img {
+  width: 30px;
+  border-radius: 50%;
+}
+.write-up {
+  display: flex;
+}
